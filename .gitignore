@@ -1,4 +1,15 @@
 .idea/
 *.iml
 node_modules/
-.DS_Store
+.DS_Store.antlr
+
+yarn-error.log
+yarn.lock
+
+*.orig.*
+
+lib/
+publish/
+
+.antlr
+antlr/

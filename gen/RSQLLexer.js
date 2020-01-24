@@ -1,4 +1,4 @@
-// Generated from RSQL.g4 by ANTLR 4.7.2
+// Generated from RSQL.g4 by ANTLR 4.8
 // jshint ignore: start
 var antlr4 = require('antlr4/index');
 
@@ -233,7 +233,6 @@ RSQLLexer.prototype.ruleNames = [ "TRUE", "FALSE", "EQ", "NE", "IN", "NIN",
                                   "ANYTHING_ELSE" ];
 
 RSQLLexer.prototype.grammarFileName = "RSQL.g4";
-
 
 
 exports.RSQLLexer = RSQLLexer;
