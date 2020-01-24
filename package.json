@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/bebsworthy/rsql-parser#readme",
   "dependencies": {
-    "@rollup/plugin-commonjs": "^11.0.1",
     "antlr4": "4.8.0"
   },
   "babel": {
@@ -38,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
