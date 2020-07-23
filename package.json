@@ -1,13 +1,14 @@
 {
-  "name": "rsql-parser",
-  "version": "0.0.2",
+  "name": "@apsel/rsql-parser",
+  "version": "0.0.5",
   "description": "A javascript library for parsing rsql expressions into predicates.",
   "main": "lib/rsql-parser.esm.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "regenerate": "./regenerate.sh",
-    "test": "mocha"
+    "test": "mocha",
+    "push": "yarn build &&  yarn publish --non-interactive --no-git-tag-version --patch --access public --tag latest"
   },
   "repository": {
     "type": "git",
